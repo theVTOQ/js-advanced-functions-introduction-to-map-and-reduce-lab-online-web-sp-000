@@ -27,9 +27,11 @@ function mapToSquare(array){
   return squaredValues;
 }
 
-function reduceToTotal(array, startingPoint){
+function reduceToTotal(array, startingPoint = 0){
   array.forEach(num => {
     stratingPoint += num;
   });
   return startingPoint;
 }
+
+function
