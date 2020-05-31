@@ -6,3 +6,7 @@ function mapToNegativize(array){
   });
   return negativizedValues;
 }
+
+function mapToNoChange(array){
+  return array;
+}
